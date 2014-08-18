@@ -1,0 +1,20 @@
+body {
+	background: white;
+}
+
+ol {
+	border: 5px solid darksalmon;
+	border-radius: 10px;
+}
+
+.content li {
+	color: brown;
+}
+/* note nth child is a psuedoclass not a class */
+li:first-child {
+	background: yellow;
+}
+
+li:nth-child(2) {
+	background: blue;
+}

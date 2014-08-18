@@ -1,0 +1,19 @@
+/* CSS comment symbols */
+body {
+	background: lightcyan;
+	width: 800px;
+	margin: auto;
+}
+
+h1 {
+	color: maroon; /* see Mozilla MDN for recognixed color names */
+	/* color: #ff0000; in hex- to left is solid red, characters= 0-f  rrggbb is the pattern.  
+			all zero's is black; all f's is white */
+	text-align: center;
+}
+
+p {
+	color: gray;
+	border: 1px solid gray;
+	padding: 10px;
+}

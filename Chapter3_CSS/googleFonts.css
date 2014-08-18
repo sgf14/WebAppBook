@@ -1,0 +1,13 @@
+body {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 100%;
+}
+
+p {
+	font-size: x-large;
+}
+
+a {
+/* 	this set font to 1.2 times the base size */
+	font-size: 2.2em;
+}

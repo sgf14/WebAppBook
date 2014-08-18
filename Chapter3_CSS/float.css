@@ -1,0 +1,26 @@
+main {
+	background: gray;
+	width: 500px;
+	margin: auto;
+/* this keeps the gray background since all the space is occupied by floats below */
+	overflow: auto;
+}
+
+nav {
+/* 	uncomment the next line to get a border around the nav */
+/* 	border: 3px solid black;  */
+	width: 50px;
+	float: right;
+}
+
+nav p {
+/* 	removes defaults on the p tags inside nav */
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	margin: 0;
+	float: left;
+	width: 400px;
+}
