@@ -1,0 +1,98 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #ffffff;
+/* 	font-family: 'Droid+Sans+Mono', sans-serif; */
+	font-size: 100%;
+}
+
+header, main, footer {
+	min-width: 855px;
+}
+
+header {
+	border-bottom: 2px solid green;
+	overflow: auto;
+	margin: 10px 5px 20px 15px; /* goes clockwise- top, right bottom left */
+}
+
+/* header .title {
+	margin: 10px 5px 20px 15px; goes clockwise- top, right bottom left
+} */
+
+h1 {
+	font-size: 250%;
+	float: left;
+	width: 285px;
+}
+
+h2 {
+	font-size: 120%;
+	float: right;
+	width: 570px;
+	margin: 15px;
+}
+
+main {
+	background: white;
+	overflow: auto;
+}
+
+main .comment-input {
+	float: left;
+ 	width: 285px; /*285= 855/3; splitting screen into thirds */
+ 	padding: 5px;
+/*  	font-size: 25px; */
+}
+
+main input {
+	font-size: 100%; /*this is actually a duplicate you can see in dev tools in webpage how this overwrites the body 100% setting */
+/* 	margin: 5px; */
+}
+
+main button {
+/* 	align-items: center; */
+	margin: 4px 4px 6px 4px;
+	padding: 0px /*0px 0px 0px 0px*/;
+	
+}
+
+main button:hover {
+/* 	this changes the arrow to a hand symbol when hovering over the button element */
+	cursor: pointer;
+}
+  
+main .comments {
+	float: right;
+	width: 570px;
+	padding: 2px;
+}
+
+main .comments p {
+	padding: 4px;
+	margin: 4px;
+}
+
+main .comments p:nth-child(even) {
+	background: lavender;
+	border-radius: 4px;
+}
+
+main .comments p:nth-child(odd) {
+	background: gainsboro;
+	border-radius: 4px;
+	
+}
+
+footer {
+	border-top: 2px solid green;
+}
+
+h3 {
+	font-size: 50%;
+	
+}
+

@@ -14,7 +14,7 @@ header .container, main .container, footer .container {
 }
 
 header {
-	background: lightgray;
+	background: white;
 	overflow: auto;
 	padding: 30px;
 }
@@ -74,14 +74,24 @@ main {
 	overflow: auto;
 }
 
-main .left {
+main .container {
 	float: left;
-	width: 570px;
+	padding: 20px;
+	width: 855px;
 }
 
-main .right {
-	float: right;
-	width: 285px;
+.tabs a span {
+	display: inline-block;
+	border-radius: 5px 5px 0 0;
+	width: 100px;
+	margin-right: 10px;
+	text-align: center;
+	background: #ddd;
+	padding: 5px;
+}
+
+.tabs a span.active {
+	background: #eee;
 }
 
 p.company {
@@ -89,6 +99,24 @@ p.company {
 	font-style: italic;
 }
 
+.content {
+	background-color: #eee;
+	border-radius: 3px;
+	padding:10px;
+}
+
+.content ul {
+/* 	padding: 10px; */
+	
+}
+
+.content li {
+	margin: 5px;
+	padding: 3px;
+	border-radius: 3px;
+	background-color: white;
+}
+ 
 footer {
 /* 	overflow: auto; */
 }
