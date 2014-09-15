@@ -43,7 +43,7 @@ var main = function (toDoObjects) {
 								}
 							});
 						});
-	
+						 
 						var tagObjects = tags.map(function (tag) {
 							var toDosWithTag = [];
 							toDoObjects.forEach(function (toDo) {
@@ -53,7 +53,7 @@ var main = function (toDoObjects) {
 							});
 							return { "name" : tag , "toDos" : toDosWithTag };
 						});
-							                      						
+						//note-this var changed from organizedByTag to tagObjects upon insert of working tag tab- not noted in book, but in gitHub for book	                      						
 						tagObjects.forEach(function (tag) {
 							var $tagName = $("<h3>").text(tag.name),
 							$content = $("<ul>");
